@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="233d2e1ff7584c7a9e6a9441299fe1e4" Name="Diagram1">
+        <EntityTypeShape EntityType="UPBruhanovaModel.agent" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UPBruhanovaModel.apartment" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UPBruhanovaModel.apartment_demands" Width="1.5" PointX="6" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UPBruhanovaModel.City" Width="1.5" PointX="3.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UPBruhanovaModel.client" Width="1.5" PointX="3.75" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UPBruhanovaModel.district" Width="1.5" PointX="0.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UPBruhanovaModel.house_demands" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="UPBruhanovaModel.house" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="UPBruhanovaModel.land_demands" Width="1.5" PointX="3" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UPBruhanovaModel.land" Width="1.5" PointX="6" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UPBruhanovaModel.sysdiagram" Width="1.5" PointX="5.75" PointY="2" IsExpanded="true" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_apartment_demands_agents" ManuallyRouted="false" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_land_demands_agents" ManuallyRouted="false" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_apartment_City" ManuallyRouted="false" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_apartment_districts" ManuallyRouted="false" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_apartment_demands_City" ManuallyRouted="false" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_apartment_demands_clients" ManuallyRouted="false" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_apartment_demands_districts" ManuallyRouted="false" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_houses_City" ManuallyRouted="false" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_land_demands_City" ManuallyRouted="false" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_lands_City" ManuallyRouted="false" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_land_demands_clients" ManuallyRouted="false" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_houses_districts" ManuallyRouted="false" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_land_demands_districts" ManuallyRouted="false" />
+        <AssociationConnector Association="UPBruhanovaModel.FK_lands_districts" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
